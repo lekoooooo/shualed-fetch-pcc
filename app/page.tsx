@@ -57,7 +57,7 @@ const App = () => {
                 {user.name.first} {user.name.last}
               </h2>
               <p className="text-[#909090] text-sm">
-                {user.dob.age} /
+                {user.dob.age} /{" "}
                 {user.gender.charAt(0).toUpperCase() + user.gender.slice(1)}
               </p>
             </div>
